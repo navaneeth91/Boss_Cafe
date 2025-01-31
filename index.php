@@ -1,0 +1,244 @@
+<?php
+
+@include 'config.php';
+
+session_start();
+if(!isset($_SESSION['user_name'])){
+    header('location:login_form.php');
+ }
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./Home image/123.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="foodmenu-seemore.html">
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Boss Cafe</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="">
+                        <li><i class="fa-solid fa-house-chimney"></i></li></a>
+                        <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li></a>
+
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="user_page.php"> <li><i class="fa-solid fa-user" id="user-mb"></i></li></a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="#">
+                        <li>Home</li></a>
+                        <a href="#foodmenu">
+                        <li>Food Menu/Offers</li></a>
+                        <a href="#aboutus">
+                        <li>About Us</li></a>
+                        <a href="#reservation">
+                        <li>Reservation</li></a>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="logo">
+                <img src="./Home image/Logo.png" alt="">
+            </div>
+
+            <div class="bar">
+                <i class="fa-solid fa-bars" id="hdbars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="#">
+                    <li>Home</li></a>
+                    <a href="#foodmenu">
+                    <li>Food Menu/Offers</li></a>
+                    <a href="#aboutus">
+                    <li>About Us</li></a>
+                    <a href="#reservation">
+                    <li>Reservation</li></a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="#" id="login-button">
+                    <li><i class="fa-solid fa-house-chimney"></i></li></a>
+                    <a href="#" id="login-button">
+                    <li><i class="fa-solid fa-magnifying-glass" id="searchicon2"></i></li></a>
+
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass  srchicon"></i>
+                    </div>
+                    <a href="user_page.php" id="login-button">
+                    <li><i class="fa-solid fa-user" id="user-lap"></i></li></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="home" id="home">
+        <div class="main_slide">  <!-- Welcome -->
+            <div>
+                <h1>Welcome to <span>Boss Cafe,</span> where every dish is a revelation.</h1>
+                <p>Welcome to our culinary sanctuary, where each bite tells a story. 
+                    Explore a world of exquisite flavors, handcrafted with love. 
+                    Join us for an unforgettable dining experience that transcends taste and tradition. 
+                    Discover your next gastronomic adventure here.</p>
+
+                <button class="red_btn">Visit Now   <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div>
+                <img src="./Home image/plate5-rbg.png" alt="">
+            </div>
+        </div>
+
+        <div class="section-padding" id="foodmenu"> <!-- Food Styles -->
+            <div class="food-items">
+            <div class="item">
+                 <div>
+                    <img src="./Home image/teacoffe.jpeg" width="100px" height="150px"  alt="food item">
+                 </div>
+                   <h3>Tea & Coffee</h3>
+                   <p>Tea and Coffee are two of the most beloved beverages worldwide. Whether you prefer a soothing cup of tea or a bold, aromatic coffee, both offer warmth, relaxation, and energy to start your day.</p>
+                  <a href="foodmenu-tea-coffee.html"><button class="white_btn">See Menu</button></a>
+             </div>
+
+                <div class="item">
+                    <div>
+                        <img src="./Home image/Pizza.jpg"  width="100px" height="150px" alt="food item">
+                    </div>
+                    <h3>Pizzas</h3>
+                    <p>Pizza is a delightful blend of crispy crust, melted cheese, and a variety of flavorful toppings. From classic Margherita to creative combinations,
+                         each slice offers a perfect balance of savory, cheesy goodness that satisfies every craving..</p>
+                    <a href="foodmenu-pizzas.html"><button class="white_btn">See Menu</button></a>
+                </div>
+
+                <div class="item">
+                    <div>
+                        <img src="./Home image/Sandwich.jpg" width="100px" height="150px"  alt="food item">
+                    </div>
+                    <h3>Sandwiches</h3>
+                    <p>Sandwiches bring together fresh, flavorful ingredients between soft, comforting bread. Whether it's classic or creative,
+                         each bite offers a delicious mix of textures and tastes..</p>
+                    <a href="foodmenu-sandwiches.html"><button class="white_btn">See Menu</button></a>
+                </div>
+
+
+                <div class="item">
+                    <div>
+                        <img src="./Home image/chinese.jpg" width="100px" height="150px"  alt="food item">
+                    </div>
+                    <h3>Chinese</h3>
+                    <p>Chinese cuisine is a vibrant mix of bold flavors, aromatic spices, and diverse textures. From savory stir-fries to
+                         delicate dumplings, each dish offers a satisfying balance of sweet, sour, salty, and spicy notes.</p>
+                    <a href="foodmenu-chinese.html"><button class="white_btn">See Menu</button></a>
+                </div>
+
+
+                <div class="item">
+                    <div>
+                        <img src="./Home image/pasta.jpg" width="100px" height="150px"  alt="food item">
+                    </div>
+                    <h3>Pasta & Maggi</h3>
+                    <p>Pasta and Maggi offer quick, comforting meals full of flavor. Whether it's rich,
+                         cheesy pasta or a spicy, savory bowl of Maggi, both dishes are perfect for satisfying cravings in no time..</p>
+                    <a href="foodmenu-pasta.html"><button class="white_btn">See Menu</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="section-padding" id="aboutus"> <!-- About Us -->
+            <div class="main_slide2">
+                <div class="fooding">
+                    <img src="./Home image/Logo.png" alt="">
+                </div>
+                <div class="question">
+                    <div>
+                        <h2>About Us</h2>
+                    </div>
+                    <div>
+                        <div>
+                            <p>
+                                Boss Cafe is a culinary haven where passion meets palate. 
+                                Nestled in the heart of the city, we craft extraordinary dining experiences for discerning gourmands. <br><br>
+                                Our expert chefs meticulously curate each dish, blending innovation with tradition to create gastronomic 
+                                delights that tantalize taste buds and spark conversations. With an unwavering commitment to sourcing the finest, 
+                                locally-sourced ingredients, we transform them into art on a plate. <br><br>
+                                Our restaurant is a haven for food lovers seeking refined, unforgettable flavors in an elegant ambiance. 
+                                Come savor the essence of our culinary artistry and embark on a journey of taste that transcends the ordinary.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-padding" id="reservation"> <!-- Make a reservation -->
+            <div class="reservationbox">
+                <div class="banner question">
+                    <h2>Reservation</h2>
+                    <div class="card-container">
+                        <div class="card-img"></div>
+
+                        <div class="card-content">
+                            <h3>BOOK YOUR TABLE NOW</h3>
+                            <form action="reservation.php" method="post">
+                                <div class="form-row">
+                                    <input type="datetime-local" name="date_time" placeholder="datetime:">
+                                </div>
+                                <div class="form-row">
+                                    <input type="text" placeholder="Full Name" name="fullname">
+                                    <input type="text" placeholder="Phone Number" name="phonenumber">
+                                </div>
+                                <div class="form-row">
+                                    <input type="number" placeholder="How many people?" min="1" name="people">
+                                    <input type="submit" value="BOOK TABLE">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+   
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <div class="logo">
+                        <img src="./Home image/Logo.png" alt="Boss Cafe Logo">
+                    </div>
+                    <p>Experience the finest flavors with Boss Cafe. We bring you the best of Chinese cuisine with a touch of elegance.</p>
+                </div>
+                
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Email:</strong> bosscafe@gmail.com</p>
+                    <p><strong>Phone:</strong> 0114 777 888</p>
+                    <p><strong>Address:</strong> No. 36 De Kretser Pl, Colombo 00400</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Powered by <em>Boss cafe</em></p>
+            </div>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>

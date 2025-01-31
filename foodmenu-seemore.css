@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Header CSS*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color:rgb(86, 15, 15);
+    border-bottom: 2px solid rgb(232, 194, 194);
+    box-shadow: 0 2px 20px rgb(105, 52, 52);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.logo img{
+    width: 150px; 
+}
+
+.home {
+    background-color: rgb(233, 198, 198);
+    padding: 0 7vw;
+    margin-top: 55px;
+}
+
+.home h1{
+    text-align: center;
+}
+
+.home h1 span{
+    color: rgb(159, 40, 40);
+    text-decoration: underline;
+}
+.section-padding h1{
+    text-align: center;
+    color: black;
+}
+
+.section-padding{
+    padding-top: 55px;
+}
+
+.food-items{
+    margin: 11px 0;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+}
+
+.item div{
+    height: 160px;
+}
+
+.item img{
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.item p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.item .fav-price{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.white_btn{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+    color: rgb(253, 77,8);
+    line-height: 50px;
+    border: 1px solid rgb(253, 77,8);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    transition: all 0.2s;
+}
+
+.white_btn:hover{
+    color: white;
+    background-color:rgb(194, 12, 12);
+    box-shadow: 0 10px 15px rgb(250, 120, 69);
+}
+
+
+.item .red_btn .white_btn{
+    width: 120px;
+    line-height: 35px;
+}
+
+/*Footer CSS*/
+.footer {
+    background-color: rgb(86, 15, 15);;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.footer-section h3 {
+    border-bottom: 2px solid #f8b400;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.footer-bottom {
+    background: rgb(86, 15, 15);;
+    padding: 10px;
+    margin-top: 10px;
+}
