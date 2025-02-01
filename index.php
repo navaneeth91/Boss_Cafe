@@ -14,7 +14,7 @@ if(!isset($_SESSION['user_name'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="./Home image/123.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Home image/Logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="foodmenu-seemore.html">

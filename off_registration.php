@@ -31,10 +31,10 @@ if(isset($_POST['submit'])){
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <link rel="shortcut icon" href="./Home image/123.png" type="image/x-icon">
+   <link rel="shortcut icon" href="./Home image/Logo.png" type="image/x-icon">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Signature Cuisine | Register Admin/Staff</title>
+   <title>Boss Cafe | Register Admin/Staff</title>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="style12.css">
@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
 
    <form action="" method="POST">
-   <h1><em>Signature Cuisine</em></h1><h3>Register Admin/Staff</h3> 
+   <h1><em>Boss Cafe</em></h1><h3>Register Admin/Staff</h3> 
       <?php
       if(isset($error)){
          foreach($error as $error){

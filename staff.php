@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" ,initial-scale="1" />
-    <link rel="shortcut icon" href="./Home image/123.png" type="image/x-icon">
-    <title>Signature Cuisine | Staff</title>
+    <link rel="shortcut icon" href="./Home image/Logo.png" type="image/x-icon">
+    <title>Boss cafe | Staff</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <!--Custom css file-->
     <link rel="stylesheet" href="staff.css">
@@ -15,7 +15,7 @@
 <nav  class="navbar navbar-expand-lg navbar-light px-5" style="background-color:rgb(86, 15, 15);">
     
     <a class="navbar-brand ml-5" href="staff.php">
-        <img src="./Home image/456.png " width="120" height="80" alt="Signaturecruisine">
+        <img src="./Home image/Logo.png " width="120" height="80" alt="Boss Cafe">
         <img src="./assets/images/logo1.png" width="150" height="80" alt="">
     </a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>

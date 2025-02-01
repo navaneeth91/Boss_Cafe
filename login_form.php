@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="shortcut icon" href="./Home image/123.png" type="image/x-icon">
+   <link rel="shortcut icon" href="./Home image/Logo.png" type="image/x-icon">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">

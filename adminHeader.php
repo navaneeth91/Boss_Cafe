@@ -8,7 +8,7 @@
  <nav  class="navbar navbar-expand-lg navbar-light px-5" style="background-color:rgb(86, 15, 15);">
     
     <a class="navbar-brand ml-5" href="index1.php">
-        <img src="./Home image/456.png " width="120" height="80" alt="Signaturecruisine">
+        <img src="./Home image/Logo.png " width="120" height="80" alt="Boss cafe">
         <img src="./assets/images/logo1.png" width="150" height="80" alt="">
     </a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>

@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <div class="sidebar" id="mySidebar">
 <div class="side-header">
-    <img src="./Home image/123.png" width="120" height="120" alt="Signature cruisine"> 
+    <img src="./Home image/Logo.png" width="120" height="120" alt="Boss Cafe"> 
     <h5 style="margin-top:10px;color:white;">Hello, Admin</h5>
 </div>
 
