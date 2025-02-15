@@ -636,9 +636,8 @@ form input[type=submit]:hover{
 
 
 /*Footer CSS*/
-
 .footer {
-    background-color:rgb(86, 15, 15);;
+    background-color: rgb(86, 15, 15);;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -649,31 +648,23 @@ form input[type=submit]:hover{
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
-    color: white ;
 }
 .footer-section {
     flex: 1;
     min-width: 250px;
     margin: 10px;
-    color: #fff;
 }
 .footer-section h3 {
     border-bottom: 2px solid #f8b400;
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    color: #9a9a9a;
 }
 .footer-bottom {
- 
+    background: rgb(86, 15, 15);;
     padding: 10px;
     margin-top: 10px;
-    color: white;
 }
-
-
-
-
 
 
 
@@ -904,17 +895,6 @@ form input[type=submit]:hover{
         font-size: 20px;
     }
 }
-
-/*.loginbutton{
-    background: transparent;
-    border-radius: 6px;
-    padding: 6px 24px;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-}*/
-
-
 
 #login-button {
     display: inline-block;

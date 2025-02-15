@@ -1,16 +1,3 @@
-<?php
-
-@include 'config.php';
-
-session_start();
-if(!isset($_SESSION['user_name'])){
-    header('location:login_form.php');
- }
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +25,7 @@ if(!isset($_SESSION['user_name'])){
                             <input type="search">
                             <i class="fa-solid fa-magnifying-glass srchicon"></i>
                         </div>
-                        <a href="user_page.php"> <li><i class="fa-solid fa-user" id="user-mb"></i></li></a>
+                        <a href="#"> <li><i class="fa-solid fa-user" id="user-mb"></i></li></a>
                     </ul>
                 </div>
                 <div class="nav">
@@ -86,7 +73,7 @@ if(!isset($_SESSION['user_name'])){
                         <input type="search">
                         <i class="fa-solid fa-magnifying-glass  srchicon"></i>
                     </div>
-                    <a href="user_page.php" id="login-button">
+                    <a href="#" id="login-button">
                     <li><i class="fa-solid fa-user" id="user-lap"></i></li></a>
                 </ul>
             </div>
@@ -198,7 +185,7 @@ if(!isset($_SESSION['user_name'])){
 
                         <div class="card-content">
                             <h3>BOOK YOUR TABLE NOW</h3>
-                            <form action="reservation.php" method="post">
+                            <form >
                                 <div class="form-row">
                                     <input type="datetime-local" name="date_time" placeholder="datetime:">
                                 </div>
@@ -217,8 +204,6 @@ if(!isset($_SESSION['user_name'])){
 
             </div>
         </div>
-
-   
         <footer class="footer">
             <div class="footer-container">
                 <div class="footer-section about">
